@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
@@ -8,6 +9,7 @@ public class Main {
     }
 
     private void run() {
+        int n = new Scanner(System.in).nextInt();
        int[] mass = createMass(10);
        printArray(mass);
 
